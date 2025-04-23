@@ -1,0 +1,99 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #5910E5; /* Dark Purple */
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.social-links a {
+    color: #C3FF83; /* Lime Green */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero h2 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.service {
+    background-color: #5910E5;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    color: #C3FF83;
+}
+
+.service p {
+    font-size: 1rem;
+}
+
+/* Contact Form Section */
+#contact {
+    background-color: #333;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    padding: 10px;
+    background-color: #C3FF83;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A4FF69;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5910E5;
+}
